@@ -1,0 +1,9 @@
+easy_admin:
+    site_name :  BiblioWeb
+    entities:
+        # List the entity class name you want to manage
+        - App\Entity\Genre
+        - App\Entity\Nationalite
+        - App\Entity\Auteur
+        - App\Entity\Editeur
+        - App\Entity\Livre
